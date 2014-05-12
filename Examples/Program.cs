@@ -93,6 +93,7 @@ namespace Examples
 			//the new content)
 
 			//creates ComplexNumber x and initializes it with a real value of 4.2 and an imaginary value of 3
+			//Look at ComplexNumber.cs file
 			ComplexNumber x = new ComplexNumber (4.2f, 3f);
 
 			//Prints out x
@@ -128,7 +129,48 @@ namespace Examples
 			//data types copy the values instead of the location of the values
 			//this is very useful in mathematical programs and games
 
+			//creates a List of animals called Zoo
+			//C# Lists are basically dynamic arrays (arrays which can bigger as you add more members)
+			//not to be confused with LinkedList which is not the same as an array at all (look them up)
+			//Look at Animal.cs
+			List<Animal> zoo = new List<Animal>();
+			//adds element to list zoo
+			//the element added is a Lion object (look at Lion.cs)
+			//This works because Lion inherits animal
+			//This is called polymorhpism
+			zoo.Add (new Lion ("Simba", 4));
+			zoo.Add (new Bear ("Baloo", 5));
+			zoo.Add (new Lion ("King Richard", 40));
 
+			//foreach loops can be used with Lists and array to iterate through each element
+			//foreach(type name in List) is the format
+			foreach (Animal resident in zoo) {
+				//print out whatever the ToString() gives for the animal objects
+				Console.WriteLine (resident);
+				//notice that the output is 
+				//Lion: Simba 4 years
+				//Bear: Baloo 5 years
+				//Lion: King Richard 40 years
+				//for this section
+				//this is the result of the Lion and Bear objects overrides on the ToString method
+			}
+			//another example of the override
+			foreach (Animal resident in zoo) {
+				//prints out the result of the makeNoise method from animal
+				//the list zoo is a list of animals so if Bear or Lion had methods that weren't overrides from 
+				//Animal they would give an error if they were called on an element of zoo
+				Console.WriteLine (resident.Name + " says " + resident.makeNoise());
+				//This prints out different results for Lions and Bears
+			}
+
+			//Print out the name and age of element 0 in zoo
+			Console.WriteLine(zoo[0].Name + " is  " + zoo [0].Age);
+			//calls hasBirthday on element 0 of zoo
+			zoo [0].hasBirthday ();
+			//Print out the name and age of element 0 in zoo again
+			Console.WriteLine(zoo[0].Name + " is  " + zoo [0].Age);
+			//notice that this method works even though it is not in the Lion object code
+			//this is because the method is inherited
 
 		}
 
