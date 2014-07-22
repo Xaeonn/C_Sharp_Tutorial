@@ -18,5 +18,54 @@ The syntax for input is:<br>
 String name;
 //This reads the users input up to a return carriage and stores it in the String name
 name = Console.ReadLine();
+```
+There is another command for reading single characters that we won't talk about right now as it is somewhat more complicated and require things that we haven't touched yet.
 
+We can use the output commands to print the value of variables to the screen:
+```C#
+String name = "John";
+//Outputs Name: John
+Console.WriteLine("Name: " + name);
+
+int age = 15;
+//Outputs Age: 15
+Console.WriteLine("Age: " + age);
+``` 
+
+##Changing Variables
+Variables can be altered and changed in many ways, numeric variable types like int and float can have arithmetic functions preformed on them (addition, multiplication, subtraction, division). 
+###Arithmetic
+Simple arithmetic functions can be preformed on int values with the '=' symbol meaning make the left equal to what is on the right
+```C#
+int x = 5;
+
+//make x = to x + 5  	(10)
+x = x + 5;
+
+//double x  				(20)
+x = x * 2;
+
+//subtract 2 from x
+x = x - 2;
+
+//
+```
+We can also preform these on multiple variables
+```C#
+int x = 5;
+int y = 7;
+//(x =  5 + 7 = 12)
+x = x + y;
+
+//(x = 12 * 7 = 84)
+x = x * y;
+
+//(y = 84 - 2 = 82)
+y = x - 2;
+``` 
+Hopefully you get the idea from that, it is important to note you can set the value of a variable to something different if you want
+```C# 
+int x = 9;
+//change x 
+x = 12;
 ```
