@@ -106,3 +106,10 @@ name +=  '!';
 //now Severus Snape!
 Console.WriteLine(name + " is awesome!!");
 ``` 
+
+##Example time
+Now go to [Calculator.cs](https://github.com/Xaeonn/C_Sharp_Tutorial/blob/master/Lesson_2/Calculator.cs) and try and see how much of it you understand. If you haven't already, download Visual Studio Express, or Xamarin, and create a new C# Console project.
+Once you have done that there will be a file called Program.cs, open that delete all the current contents and copy the code from Calculator.cs into it. Run it a few times and make sure you understand.
+
+###Exercise
+Alter Calculator.cs in Visual Studio so that it multiplies three numbers together and outputs the result.
