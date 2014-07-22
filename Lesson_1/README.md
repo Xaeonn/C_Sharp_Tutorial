@@ -6,4 +6,6 @@ When you start programming it can all be quite overwhelming, between variables, 
 Variables are the heart of C#, and indeed many other languages. It can be easy to get lost the first time you encounter them, experienced programmers are so used to using them they often 
 forget to explain them properly. <br>
 Any variable will be declared like this:<br>
+```
 variable_type name_of_variable;
+```
