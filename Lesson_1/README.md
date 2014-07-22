@@ -6,19 +6,19 @@ When you start programming it can all be quite overwhelming, between variables, 
 Variables are the heart of C#, and indeed many other languages. It can be easy to get lost the first time you encounter them, experienced programmers are so used to using them they often 
 forget to explain them properly. <br>
 Any variable will be declared like this:<br>
-```
+```C#
 variable_type name_of_variable;
 ```
 eg
-```
+```C#
 int number;
 ```
 This is telling the computer to create a variable of type int, integers (whole numbers), with the name number. Variables can also be declared with values assigned to them on creation:
-```
+```C#
 variable_type name_of_variable = value;
 ```
 eg
-```
+```C#
 int number = 9;
 ```
 
@@ -36,7 +36,7 @@ byte		  | any integer between 0 and 255 inclusive
 long		  | any whole number (64 bit)
 
 Here are examples of the most common ones 
-```
+```C#
 int age = 21;
 char gender = 'M';
 float pi = 3.14f;
@@ -52,10 +52,10 @@ helpful for the readability of your code both for yourself after leaving it for 
 when you start to leave comments as you go along saying what you are doing in English, or any other language. Doing this will both help you 
 have a better idea of what you are doing at the time, keeping you from getting to bad 'spaghetti code', and help you when you go back over it to find 
 bugs or make changes. 
-```
+```C#
 //This is a commented out line
 /* 
-This comments out anything between the / * and * /
+This comments out anything between the / * and * / (added spaces so it doesn't affect the code here)
 and can be used to comment multiple lines
 */
 ```
