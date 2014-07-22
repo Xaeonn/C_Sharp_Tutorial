@@ -43,3 +43,4 @@ float pi = 3.14f;
 String name = "Sam";
 bool living = true;
 ```
+Note that the char has single quotes around the value ('M') and the String has double quotes around it ("Sam").
