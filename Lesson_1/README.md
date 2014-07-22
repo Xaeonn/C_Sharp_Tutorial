@@ -44,3 +44,18 @@ String name = "Sam";
 bool living = true;
 ```
 Note that the char has single quotes around the value ('M') and the String has double quotes around it ("Sam").
+
+##Comments
+
+Comments are a way of putting notes to yourself and other people reading your code that doesn't affect the program itself. This is very 
+helpful for the readability of your code both for yourself after leaving it for a while and for others using or changing your code. It is a good idea 
+when you start to leave comments as you go along saying what you are doing in English, or any other language. Doing this will both help you 
+have a better idea of what you are doing at the time, keeping you from getting to bad 'spaghetti code', and help you when you go back over it to find 
+bugs or make changes. 
+```
+//This is a commented out line
+/* 
+This comments out anything between the / * and * /
+and can be used to comment multiple lines
+*/
+```
