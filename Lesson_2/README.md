@@ -86,3 +86,20 @@ int x = 9;
 //change x 
 x = 12;
 ```
+
+###Mod (Remainder)
+C# has a built in way of getting remainders, when 7 is divided by 4 you get a remainder of 3, which you will use time and time again.
+```C# 
+int x = 9;
+//Print out the remainder of 9 / 4 
+Console.WriteLine("Nine mod 4 is " + x % 4);
+//note the % is the symbol used to get the mod 
+```
+###Adding to Strings
+So you have a String but you want to add a full stop at the end, or another sentence, C# makes it very easy for us to do that:
+```C#
+String name = "Severus";
+name = name + " Snape";
+name +=  '!';
+Console.WriteLine(name + " is awesome!!");
+``` 
