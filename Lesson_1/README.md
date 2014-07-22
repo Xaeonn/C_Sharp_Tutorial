@@ -34,3 +34,12 @@ double		  | any decimal number (64 bit)
 bool		  | true or false
 byte		  | any integer between 0 and 255 inclusive
 long		  | any whole number (64 bit)
+
+Here are examples of the most common ones 
+```
+int age = 21;
+char gender = 'M';
+float pi = 3.14f;
+String name = "Sam";
+bool living = true;
+```
