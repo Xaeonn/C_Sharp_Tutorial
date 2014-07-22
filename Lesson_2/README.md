@@ -39,16 +39,33 @@ Simple arithmetic functions can be preformed on int values with the '=' symbol m
 ```C#
 int x = 5;
 
-//make x = to x + 5  	(10)
+//make x = to x + 5  	
 x = x + 5;
 
-//double x  				(20)
+//double x  				
 x = x * 2;
 
 //subtract 2 from x
 x = x - 2;
 
-//
+//divide  x  by 6
+x = x / 6;
+```
+The above can be shortened to ( x += 5; means x is equal to x + 5, and so on)
+```C#
+int x = 5;
+
+//make x = to x + 5  	
+x += 5;
+
+//double x  				
+x *= 2;
+
+//subtract 2 from x
+x -= 2;
+
+//divide  x  by 6
+x /= 6;
 ```
 We can also preform these on multiple variables
 ```C#
