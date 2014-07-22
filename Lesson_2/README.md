@@ -99,7 +99,10 @@ Console.WriteLine("Nine mod 4 is " + x % 4);
 So you have a String but you want to add a full stop at the end, or another sentence, C# makes it very easy for us to do that:
 ```C#
 String name = "Severus";
+//name starts as Severus
 name = name + " Snape";
+//now it's Severus Snape
 name +=  '!';
+//now Severus Snape!
 Console.WriteLine(name + " is awesome!!");
 ``` 
