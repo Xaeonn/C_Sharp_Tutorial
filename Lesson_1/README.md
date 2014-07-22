@@ -9,3 +9,15 @@ Any variable will be declared like this:<br>
 ```
 variable_type name_of_variable;
 ```
+eg.
+```
+int number;
+```
+This is telling the computer to create a variable of type int, integers (whole numbers), with the name number. Variables can also be declared with values assigned to them on creation:
+```
+variable_type name_of_variable = value;
+```
+eg.
+```
+int number = 9;
+```
