@@ -16,7 +16,7 @@ Console.WriteLine("Different text");
 The syntax for input is:<br>
 ```C# 
 String name;
-//This reads the users input and stores it in the String name
+//This reads the users input up to a return carriage and stores it in the String name
 name = Console.ReadLine();
 
 ```
