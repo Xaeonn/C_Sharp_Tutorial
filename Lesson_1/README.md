@@ -23,6 +23,7 @@ int number = 9;
 ```
 
 Here is a list of the basic variable types you will encounter and use constantly throughout your C# programming experience:
+
 Variable Name | What it stores
 ------------- | ------------- 
 int			  | any whole number between -2,147,483,648 and 2,147,483,647 inclusive
