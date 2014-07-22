@@ -9,7 +9,7 @@ Any variable will be declared like this:<br>
 ```
 variable_type name_of_variable;
 ```
-eg.
+eg
 ```
 int number;
 ```
@@ -17,7 +17,19 @@ This is telling the computer to create a variable of type int, integers (whole n
 ```
 variable_type name_of_variable = value;
 ```
-eg.
+eg
 ```
 int number = 9;
 ```
+
+Here is a list of the basic variable types you will encounter and use constantly throughout your C# programming experience:
+Variable Name | What it stores
+------------- | ---------------------------------------------------------------------
+int			  | any whole number between -2,147,483,648 and 2,147,483,647 inclusive
+char		  | any character including symbols
+float		  | any decimal number (32 bit)
+String		  | a series of characters
+double		  | any decimal number (64 bit)
+bool		  | true or false
+byte		  | any integer between 0 and 255 inclusive
+long		  | any whole number (64 bit)
