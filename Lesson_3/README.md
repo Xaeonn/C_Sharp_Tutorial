@@ -6,7 +6,7 @@ Say you have something that you want to do in lots of different places in your p
 Methods give you a way of writing that code once instead of every time you want to square something.
 ```C#
 return_type method_name (parameters){
-	\\code
+	//code
 	return value;
 }
 ```
