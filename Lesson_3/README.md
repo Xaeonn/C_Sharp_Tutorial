@@ -33,11 +33,25 @@ int sum(int x, int y){
 }
 
 int Main(){
+	Console.Write("Please enter a number: ");
+	int x = int.Parse(Console.ReadLine());
+	Console.Write("Please enter a number: ");
+	int y = int.Parse(Console.ReadLine());
 	//calling the method
-	int s = sum(7, 11);
-	Console.WriteLine(s);
-	//will print 18
+	int s = sum(x, y);
+	Console.WriteLine(x " + " + y + " = " + s);
+	//will print the sum of the two numbers the user enters
 }
 ```
 
 ##Control Statements
+All we have done so far is very linear, your code makes no choices and always runs the same set of instructions. When you are programming
+you will constantly want the program to do one thing under one condition and another under different conditions. There are three main ways
+of doing this in C#.
+###if
+
+
+###else
+
+
+###switch
