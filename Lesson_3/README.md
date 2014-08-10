@@ -94,5 +94,13 @@ else{
 	//code
 }
 ```
-
-###switch
+###else if
+This can be extened to say do something if a condition is met otherwise if a different condition is met do something else:
+```C#
+if(condition){
+	//code
+}
+else if(condition){
+	//code
+}
+```
