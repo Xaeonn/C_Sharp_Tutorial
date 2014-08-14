@@ -104,3 +104,19 @@ else if(condition){
 	//code
 }
 ```
+
+##Examples
+age_verification.cs is a simplified example of a system of checking a users age, these systems are commonly used on websites like
+steam and other age sensitive materials to remove liability.
+
+###Exercises
+A suggested exercise is to try and write a program to check a users age based on their date of birth. You can enter the current date into
+your program against it or use the C# DateTime object:
+```C#
+//gives you todays day of the month as an int
+int day = DateTime.Now.Day;
+//month as an int
+int month = DateTime.Now.Month;
+//year
+int year = DateTime.Now.Year;
+```
